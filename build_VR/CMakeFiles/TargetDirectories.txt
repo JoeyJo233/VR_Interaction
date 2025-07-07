@@ -1,0 +1,4 @@
+P:/Desktop/tnm116-lab-interactions/build_VR/CMakeFiles/main.dir
+P:/Desktop/tnm116-lab-interactions/build_VR/CMakeFiles/INSTALL.dir
+P:/Desktop/tnm116-lab-interactions/build_VR/CMakeFiles/ALL_BUILD.dir
+P:/Desktop/tnm116-lab-interactions/build_VR/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,559 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BF987688-5CAD-34E2-A656-DE43AD5F24E0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <VcpkgEnabled>false</VcpkgEnabled>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>main</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="do_not_import_user.props" Condition="exists('do_not_import_user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">X:\Desktop\tnm116-lab-interactions\build_X\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">main.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">main</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">X:\Desktop\tnm116-lab-interactions\build_X\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">main.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">main</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">X:\Desktop\tnm116-lab-interactions\build_X\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">main.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">main</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">X:\Desktop\tnm116-lab-interactions\build_X\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">main.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">main</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "K:/TNM116/gramods-win/include" /external:I "K:/TNM116/gramods-win/vcpkg/installed/x64-windows/include/eigen3" /external:I "K:/TNM116/gramods-win/vcpkg/installed/x64-windows/include" /external:I "K:/TNM116/gramods-win/vcpkg/installed/x64-windows/include/SDL2" /external:I "K:/TNM116/gramods-win/vcpkg/installed/x64-windows/include/openjpeg-2.5" /external:I "K:/TNM116/gramods-win/vcpkg/installed/x64-windows/include/webp" /external:I "K:/TNM116/gramods-win/vcpkg/installed/x64-windows/include/OpenEXR" /external:I "K:/TNM116/gramods-win/vcpkg/installed/x64-windows/include/Imath"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;TINYXML2_DEBUG;TINYXML2_IMPORT;_FILE_OFFSET_BITS=64;OPENEXR_DLL;IMATH_DLL;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;TINYXML2_DEBUG;TINYXML2_IMPORT;_FILE_OFFSET_BITS=64;OPENEXR_DLL;IMATH_DLL;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>K:\TNM116\gramods-win\include;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\eigen3;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\SDL2;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\openjpeg-2.5;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\webp;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\OpenEXR;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\Imath;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>K:\TNM116\gramods-win\include;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\eigen3;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\SDL2;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\openjpeg-2.5;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\webp;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\OpenEXR;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\Imath;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file K:/TNM116/gramods-win/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary X:/Desktop/tnm116-lab-interactions/build_X/Debug/main.exe -installedDir K:/TNM116/gramods-win/vcpkg/installed/x64-windows/debug/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>K:\TNM116\gramods-win\lib\gmGraphics-d.lib;K:\TNM116\gramods-win\lib\gmNetwork-d.lib;K:\TNM116\gramods-win\lib\gmTrack-d.lib;K:\TNM116\gramods-win\lib\gmMisc-d.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\debug\lib\glew32d.lib;opengl32.lib;glu32.lib;opengl32.lib;K:\TNM116\gramods-win\lib\gmCore-d.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\debug\lib\tinyxml2.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\debug\lib\SDL2d.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\debug\lib\FreeImaged.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\debug\lib\zlibd.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\debug\lib\jpeg.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\debug\lib\tiffd.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\debug\lib\libpng16d.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\debug\lib\zlibd.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\debug\lib\jpeg.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\debug\lib\tiffd.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\debug\lib\libpng16d.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\debug\lib\openjp2.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\debug\lib\libwebpdemux.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\debug\lib\libwebpmux.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\debug\lib\libwebp.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\debug\lib\libsharpyuv.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\debug\lib\libwebpdecoder.lib;shlwapi.lib;ole32.lib;windowscodecs.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\debug\lib\jxrglued.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\debug\lib\jpegxrd.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\debug\lib\manual-link\rawd.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\debug\lib\OpenEXR-3_3_d.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\debug\lib\IlmThread-3_3_d.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\debug\lib\Iex-3_3_d.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\debug\lib\OpenEXRCore-3_3_d.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\debug\lib\Imath-3_1_d.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\debug\lib\openvr_api.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>X:/Desktop/tnm116-lab-interactions/build_X/Debug/main.lib</ImportLibrary>
+      <ProgramDataBaseFile>X:/Desktop/tnm116-lab-interactions/build_X/Debug/main.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "K:/TNM116/gramods-win/include" /external:I "K:/TNM116/gramods-win/vcpkg/installed/x64-windows/include/eigen3" /external:I "K:/TNM116/gramods-win/vcpkg/installed/x64-windows/include" /external:I "K:/TNM116/gramods-win/vcpkg/installed/x64-windows/include/SDL2" /external:I "K:/TNM116/gramods-win/vcpkg/installed/x64-windows/include/openjpeg-2.5" /external:I "K:/TNM116/gramods-win/vcpkg/installed/x64-windows/include/webp" /external:I "K:/TNM116/gramods-win/vcpkg/installed/x64-windows/include/OpenEXR" /external:I "K:/TNM116/gramods-win/vcpkg/installed/x64-windows/include/Imath"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;TINYXML2_IMPORT;_FILE_OFFSET_BITS=64;OPENEXR_DLL;IMATH_DLL;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;TINYXML2_IMPORT;_FILE_OFFSET_BITS=64;OPENEXR_DLL;IMATH_DLL;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>K:\TNM116\gramods-win\include;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\eigen3;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\SDL2;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\openjpeg-2.5;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\webp;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\OpenEXR;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\Imath;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>K:\TNM116\gramods-win\include;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\eigen3;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\SDL2;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\openjpeg-2.5;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\webp;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\OpenEXR;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\Imath;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file K:/TNM116/gramods-win/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary X:/Desktop/tnm116-lab-interactions/build_X/Release/main.exe -installedDir K:/TNM116/gramods-win/vcpkg/installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>K:\TNM116\gramods-win\lib\gmGraphics.lib;K:\TNM116\gramods-win\lib\gmNetwork.lib;K:\TNM116\gramods-win\lib\gmTrack.lib;K:\TNM116\gramods-win\lib\gmMisc.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\glew32.lib;opengl32.lib;glu32.lib;opengl32.lib;K:\TNM116\gramods-win\lib\gmCore.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\tinyxml2.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\SDL2.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\FreeImage.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\zlib.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\jpeg.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\tiff.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\libpng16.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\zlib.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\jpeg.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\tiff.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\libpng16.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\openjp2.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\libwebpdemux.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\libwebpmux.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\libwebp.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\libsharpyuv.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\libwebpdecoder.lib;shlwapi.lib;ole32.lib;windowscodecs.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\jxrglue.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\jpegxr.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\manual-link\raw.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\OpenEXR-3_3.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\IlmThread-3_3.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\Iex-3_3.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\OpenEXRCore-3_3.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\Imath-3_1.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\debug\lib\openvr_api.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>X:/Desktop/tnm116-lab-interactions/build_X/Release/main.lib</ImportLibrary>
+      <ProgramDataBaseFile>X:/Desktop/tnm116-lab-interactions/build_X/Release/main.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "K:/TNM116/gramods-win/include" /external:I "K:/TNM116/gramods-win/vcpkg/installed/x64-windows/include/eigen3" /external:I "K:/TNM116/gramods-win/vcpkg/installed/x64-windows/include" /external:I "K:/TNM116/gramods-win/vcpkg/installed/x64-windows/include/SDL2" /external:I "K:/TNM116/gramods-win/vcpkg/installed/x64-windows/include/openjpeg-2.5" /external:I "K:/TNM116/gramods-win/vcpkg/installed/x64-windows/include/webp" /external:I "K:/TNM116/gramods-win/vcpkg/installed/x64-windows/include/OpenEXR" /external:I "K:/TNM116/gramods-win/vcpkg/installed/x64-windows/include/Imath"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;TINYXML2_IMPORT;_FILE_OFFSET_BITS=64;OPENEXR_DLL;IMATH_DLL;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;TINYXML2_IMPORT;_FILE_OFFSET_BITS=64;OPENEXR_DLL;IMATH_DLL;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>K:\TNM116\gramods-win\include;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\eigen3;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\SDL2;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\openjpeg-2.5;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\webp;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\OpenEXR;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\Imath;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>K:\TNM116\gramods-win\include;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\eigen3;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\SDL2;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\openjpeg-2.5;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\webp;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\OpenEXR;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\Imath;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file K:/TNM116/gramods-win/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary X:/Desktop/tnm116-lab-interactions/build_X/MinSizeRel/main.exe -installedDir K:/TNM116/gramods-win/vcpkg/installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>K:\TNM116\gramods-win\lib\gmGraphics.lib;K:\TNM116\gramods-win\lib\gmNetwork.lib;K:\TNM116\gramods-win\lib\gmTrack.lib;K:\TNM116\gramods-win\lib\gmMisc.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\glew32.lib;opengl32.lib;glu32.lib;opengl32.lib;K:\TNM116\gramods-win\lib\gmCore.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\tinyxml2.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\SDL2.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\FreeImage.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\zlib.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\jpeg.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\tiff.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\libpng16.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\zlib.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\jpeg.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\tiff.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\libpng16.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\openjp2.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\libwebpdemux.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\libwebpmux.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\libwebp.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\libsharpyuv.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\libwebpdecoder.lib;shlwapi.lib;ole32.lib;windowscodecs.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\jxrglue.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\jpegxr.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\manual-link\raw.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\OpenEXR-3_3.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\IlmThread-3_3.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\Iex-3_3.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\OpenEXRCore-3_3.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\Imath-3_1.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\debug\lib\openvr_api.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>X:/Desktop/tnm116-lab-interactions/build_X/MinSizeRel/main.lib</ImportLibrary>
+      <ProgramDataBaseFile>X:/Desktop/tnm116-lab-interactions/build_X/MinSizeRel/main.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "K:/TNM116/gramods-win/include" /external:I "K:/TNM116/gramods-win/vcpkg/installed/x64-windows/include/eigen3" /external:I "K:/TNM116/gramods-win/vcpkg/installed/x64-windows/include" /external:I "K:/TNM116/gramods-win/vcpkg/installed/x64-windows/include/SDL2" /external:I "K:/TNM116/gramods-win/vcpkg/installed/x64-windows/include/openjpeg-2.5" /external:I "K:/TNM116/gramods-win/vcpkg/installed/x64-windows/include/webp" /external:I "K:/TNM116/gramods-win/vcpkg/installed/x64-windows/include/OpenEXR" /external:I "K:/TNM116/gramods-win/vcpkg/installed/x64-windows/include/Imath"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;TINYXML2_IMPORT;_FILE_OFFSET_BITS=64;OPENEXR_DLL;IMATH_DLL;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;TINYXML2_IMPORT;_FILE_OFFSET_BITS=64;OPENEXR_DLL;IMATH_DLL;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>K:\TNM116\gramods-win\include;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\eigen3;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\SDL2;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\openjpeg-2.5;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\webp;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\OpenEXR;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\Imath;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>K:\TNM116\gramods-win\include;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\eigen3;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\SDL2;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\openjpeg-2.5;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\webp;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\OpenEXR;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\include\Imath;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file K:/TNM116/gramods-win/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary X:/Desktop/tnm116-lab-interactions/build_X/RelWithDebInfo/main.exe -installedDir K:/TNM116/gramods-win/vcpkg/installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>K:\TNM116\gramods-win\lib\gmGraphics.lib;K:\TNM116\gramods-win\lib\gmNetwork.lib;K:\TNM116\gramods-win\lib\gmTrack.lib;K:\TNM116\gramods-win\lib\gmMisc.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\glew32.lib;opengl32.lib;glu32.lib;opengl32.lib;K:\TNM116\gramods-win\lib\gmCore.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\tinyxml2.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\SDL2.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\FreeImage.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\zlib.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\jpeg.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\tiff.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\libpng16.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\zlib.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\jpeg.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\tiff.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\libpng16.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\openjp2.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\libwebpdemux.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\libwebpmux.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\libwebp.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\libsharpyuv.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\libwebpdecoder.lib;shlwapi.lib;ole32.lib;windowscodecs.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\jxrglue.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\jpegxr.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\manual-link\raw.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\OpenEXR-3_3.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\IlmThread-3_3.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\Iex-3_3.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\OpenEXRCore-3_3.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\lib\Imath-3_1.lib;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\debug\lib\openvr_api.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>X:/Desktop/tnm116-lab-interactions/build_X/RelWithDebInfo/main.lib</ImportLibrary>
+      <ProgramDataBaseFile>X:/Desktop/tnm116-lab-interactions/build_X/RelWithDebInfo/main.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="X:\Desktop\tnm116-lab-interactions\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule X:/Desktop/tnm116-lab-interactions/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SX:/Desktop/tnm116-lab-interactions -BX:/Desktop/tnm116-lab-interactions/build_X --check-stamp-file X:/Desktop/tnm116-lab-interactions/build_X/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPNG.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindTIFF.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\SelectLibraryConfigurations.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmCore-targets-debug.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmCore-targets-release.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmCore-targets.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmGraphics-targets-debug.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmGraphics-targets-release.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmGraphics-targets.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmMisc-targets-debug.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmMisc-targets-release.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmMisc-targets.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmNetwork-targets-debug.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmNetwork-targets-release.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmNetwork-targets.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmTrack-targets-debug.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmTrack-targets-release.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmTrack-targets.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\GramodsConfig.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\GramodsConfigVersion.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\WebP\WebPConfig.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\WebP\WebPConfigVersion.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\WebP\WebPTargets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\WebP\WebPTargets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\WebP\WebPTargets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\eigen3\Eigen3Config.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\eigen3\Eigen3ConfigVersion.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\eigen3\Eigen3Targets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\freeimage\freeimage-config.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\freeimage\freeimage-targets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\freeimage\freeimage-targets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\freeimage\freeimage-targets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\glew\CopyImportedTargetProperties.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\glew\glew-config.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\glew\glew-targets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\glew\glew-targets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\glew\glew-targets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\glew\vcpkg-cmake-wrapper.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\imath\ImathConfig.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\imath\ImathConfigVersion.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\imath\ImathTargets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\imath\ImathTargets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\imath\ImathTargets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\jpeg\vcpkg-cmake-wrapper.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\jxr\FindJXR.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\jxr\vcpkg-cmake-wrapper.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\libdeflate\libdeflate-config-version.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\libdeflate\libdeflate-config.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\libdeflate\libdeflate-targets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\libdeflate\libdeflate-targets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\libdeflate\libdeflate-targets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\libraw\FindLibRaw.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\libraw\vcpkg-cmake-wrapper.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openexr\OpenEXRConfig.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openexr\OpenEXRConfigVersion.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openexr\OpenEXRTargets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openexr\OpenEXRTargets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openexr\OpenEXRTargets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openjpeg\OpenJPEGConfig.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openjpeg\OpenJPEGConfigVersion.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openjpeg\OpenJPEGTargets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openjpeg\OpenJPEGTargets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openjpeg\OpenJPEGTargets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\png\vcpkg-cmake-wrapper.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\sdl2\SDL2Config.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\sdl2\SDL2ConfigVersion.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\sdl2\SDL2Targets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\sdl2\SDL2Targets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\sdl2\SDL2Targets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\sdl2\SDL2mainTargets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\sdl2\SDL2mainTargets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\sdl2\SDL2mainTargets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\sdl2\sdlfind.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\tiff\vcpkg-cmake-wrapper.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\tinyxml2\tinyxml2-config-version.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\tinyxml2\tinyxml2-config.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\tinyxml2\tinyxml2-shared-targets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\tinyxml2\tinyxml2-shared-targets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\tinyxml2\tinyxml2-shared-targets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\zlib\vcpkg-cmake-wrapper.cmake;K:\TNM116\gramods-win\vcpkg\scripts\buildsystems\vcpkg.cmake;X:\Desktop\tnm116-lab-interactions\build_X\CMakeFiles\3.31.5\CMakeCCompiler.cmake;X:\Desktop\tnm116-lab-interactions\build_X\CMakeFiles\3.31.5\CMakeCXXCompiler.cmake;X:\Desktop\tnm116-lab-interactions\build_X\CMakeFiles\3.31.5\CMakeRCCompiler.cmake;X:\Desktop\tnm116-lab-interactions\build_X\CMakeFiles\3.31.5\CMakeSystem.cmake;X:\Desktop\tnm116-lab-interactions\cmake_modules\openvr-config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">X:\Desktop\tnm116-lab-interactions\build_X\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule X:/Desktop/tnm116-lab-interactions/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SX:/Desktop/tnm116-lab-interactions -BX:/Desktop/tnm116-lab-interactions/build_X --check-stamp-file X:/Desktop/tnm116-lab-interactions/build_X/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPNG.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindTIFF.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\SelectLibraryConfigurations.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmCore-targets-debug.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmCore-targets-release.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmCore-targets.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmGraphics-targets-debug.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmGraphics-targets-release.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmGraphics-targets.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmMisc-targets-debug.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmMisc-targets-release.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmMisc-targets.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmNetwork-targets-debug.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmNetwork-targets-release.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmNetwork-targets.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmTrack-targets-debug.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmTrack-targets-release.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmTrack-targets.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\GramodsConfig.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\GramodsConfigVersion.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\WebP\WebPConfig.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\WebP\WebPConfigVersion.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\WebP\WebPTargets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\WebP\WebPTargets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\WebP\WebPTargets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\eigen3\Eigen3Config.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\eigen3\Eigen3ConfigVersion.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\eigen3\Eigen3Targets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\freeimage\freeimage-config.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\freeimage\freeimage-targets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\freeimage\freeimage-targets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\freeimage\freeimage-targets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\glew\CopyImportedTargetProperties.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\glew\glew-config.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\glew\glew-targets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\glew\glew-targets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\glew\glew-targets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\glew\vcpkg-cmake-wrapper.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\imath\ImathConfig.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\imath\ImathConfigVersion.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\imath\ImathTargets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\imath\ImathTargets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\imath\ImathTargets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\jpeg\vcpkg-cmake-wrapper.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\jxr\FindJXR.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\jxr\vcpkg-cmake-wrapper.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\libdeflate\libdeflate-config-version.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\libdeflate\libdeflate-config.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\libdeflate\libdeflate-targets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\libdeflate\libdeflate-targets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\libdeflate\libdeflate-targets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\libraw\FindLibRaw.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\libraw\vcpkg-cmake-wrapper.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openexr\OpenEXRConfig.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openexr\OpenEXRConfigVersion.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openexr\OpenEXRTargets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openexr\OpenEXRTargets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openexr\OpenEXRTargets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openjpeg\OpenJPEGConfig.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openjpeg\OpenJPEGConfigVersion.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openjpeg\OpenJPEGTargets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openjpeg\OpenJPEGTargets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openjpeg\OpenJPEGTargets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\png\vcpkg-cmake-wrapper.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\sdl2\SDL2Config.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\sdl2\SDL2ConfigVersion.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\sdl2\SDL2Targets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\sdl2\SDL2Targets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\sdl2\SDL2Targets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\sdl2\SDL2mainTargets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\sdl2\SDL2mainTargets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\sdl2\SDL2mainTargets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\sdl2\sdlfind.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\tiff\vcpkg-cmake-wrapper.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\tinyxml2\tinyxml2-config-version.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\tinyxml2\tinyxml2-config.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\tinyxml2\tinyxml2-shared-targets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\tinyxml2\tinyxml2-shared-targets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\tinyxml2\tinyxml2-shared-targets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\zlib\vcpkg-cmake-wrapper.cmake;K:\TNM116\gramods-win\vcpkg\scripts\buildsystems\vcpkg.cmake;X:\Desktop\tnm116-lab-interactions\build_X\CMakeFiles\3.31.5\CMakeCCompiler.cmake;X:\Desktop\tnm116-lab-interactions\build_X\CMakeFiles\3.31.5\CMakeCXXCompiler.cmake;X:\Desktop\tnm116-lab-interactions\build_X\CMakeFiles\3.31.5\CMakeRCCompiler.cmake;X:\Desktop\tnm116-lab-interactions\build_X\CMakeFiles\3.31.5\CMakeSystem.cmake;X:\Desktop\tnm116-lab-interactions\cmake_modules\openvr-config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">X:\Desktop\tnm116-lab-interactions\build_X\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule X:/Desktop/tnm116-lab-interactions/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SX:/Desktop/tnm116-lab-interactions -BX:/Desktop/tnm116-lab-interactions/build_X --check-stamp-file X:/Desktop/tnm116-lab-interactions/build_X/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPNG.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindTIFF.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\SelectLibraryConfigurations.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmCore-targets-debug.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmCore-targets-release.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmCore-targets.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmGraphics-targets-debug.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmGraphics-targets-release.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmGraphics-targets.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmMisc-targets-debug.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmMisc-targets-release.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmMisc-targets.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmNetwork-targets-debug.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmNetwork-targets-release.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmNetwork-targets.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmTrack-targets-debug.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmTrack-targets-release.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmTrack-targets.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\GramodsConfig.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\GramodsConfigVersion.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\WebP\WebPConfig.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\WebP\WebPConfigVersion.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\WebP\WebPTargets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\WebP\WebPTargets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\WebP\WebPTargets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\eigen3\Eigen3Config.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\eigen3\Eigen3ConfigVersion.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\eigen3\Eigen3Targets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\freeimage\freeimage-config.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\freeimage\freeimage-targets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\freeimage\freeimage-targets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\freeimage\freeimage-targets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\glew\CopyImportedTargetProperties.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\glew\glew-config.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\glew\glew-targets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\glew\glew-targets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\glew\glew-targets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\glew\vcpkg-cmake-wrapper.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\imath\ImathConfig.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\imath\ImathConfigVersion.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\imath\ImathTargets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\imath\ImathTargets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\imath\ImathTargets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\jpeg\vcpkg-cmake-wrapper.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\jxr\FindJXR.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\jxr\vcpkg-cmake-wrapper.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\libdeflate\libdeflate-config-version.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\libdeflate\libdeflate-config.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\libdeflate\libdeflate-targets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\libdeflate\libdeflate-targets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\libdeflate\libdeflate-targets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\libraw\FindLibRaw.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\libraw\vcpkg-cmake-wrapper.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openexr\OpenEXRConfig.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openexr\OpenEXRConfigVersion.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openexr\OpenEXRTargets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openexr\OpenEXRTargets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openexr\OpenEXRTargets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openjpeg\OpenJPEGConfig.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openjpeg\OpenJPEGConfigVersion.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openjpeg\OpenJPEGTargets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openjpeg\OpenJPEGTargets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openjpeg\OpenJPEGTargets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\png\vcpkg-cmake-wrapper.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\sdl2\SDL2Config.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\sdl2\SDL2ConfigVersion.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\sdl2\SDL2Targets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\sdl2\SDL2Targets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\sdl2\SDL2Targets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\sdl2\SDL2mainTargets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\sdl2\SDL2mainTargets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\sdl2\SDL2mainTargets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\sdl2\sdlfind.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\tiff\vcpkg-cmake-wrapper.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\tinyxml2\tinyxml2-config-version.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\tinyxml2\tinyxml2-config.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\tinyxml2\tinyxml2-shared-targets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\tinyxml2\tinyxml2-shared-targets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\tinyxml2\tinyxml2-shared-targets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\zlib\vcpkg-cmake-wrapper.cmake;K:\TNM116\gramods-win\vcpkg\scripts\buildsystems\vcpkg.cmake;X:\Desktop\tnm116-lab-interactions\build_X\CMakeFiles\3.31.5\CMakeCCompiler.cmake;X:\Desktop\tnm116-lab-interactions\build_X\CMakeFiles\3.31.5\CMakeCXXCompiler.cmake;X:\Desktop\tnm116-lab-interactions\build_X\CMakeFiles\3.31.5\CMakeRCCompiler.cmake;X:\Desktop\tnm116-lab-interactions\build_X\CMakeFiles\3.31.5\CMakeSystem.cmake;X:\Desktop\tnm116-lab-interactions\cmake_modules\openvr-config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">X:\Desktop\tnm116-lab-interactions\build_X\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule X:/Desktop/tnm116-lab-interactions/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SX:/Desktop/tnm116-lab-interactions -BX:/Desktop/tnm116-lab-interactions/build_X --check-stamp-file X:/Desktop/tnm116-lab-interactions/build_X/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPNG.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindTIFF.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\SelectLibraryConfigurations.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmCore-targets-debug.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmCore-targets-release.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmCore-targets.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmGraphics-targets-debug.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmGraphics-targets-release.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmGraphics-targets.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmMisc-targets-debug.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmMisc-targets-release.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmMisc-targets.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmNetwork-targets-debug.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmNetwork-targets-release.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmNetwork-targets.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmTrack-targets-debug.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmTrack-targets-release.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\Gramods-gmTrack-targets.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\GramodsConfig.cmake;K:\TNM116\gramods-win\lib\gramods\cmake\GramodsConfigVersion.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\WebP\WebPConfig.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\WebP\WebPConfigVersion.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\WebP\WebPTargets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\WebP\WebPTargets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\WebP\WebPTargets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\eigen3\Eigen3Config.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\eigen3\Eigen3ConfigVersion.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\eigen3\Eigen3Targets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\freeimage\freeimage-config.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\freeimage\freeimage-targets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\freeimage\freeimage-targets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\freeimage\freeimage-targets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\glew\CopyImportedTargetProperties.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\glew\glew-config.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\glew\glew-targets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\glew\glew-targets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\glew\glew-targets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\glew\vcpkg-cmake-wrapper.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\imath\ImathConfig.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\imath\ImathConfigVersion.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\imath\ImathTargets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\imath\ImathTargets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\imath\ImathTargets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\jpeg\vcpkg-cmake-wrapper.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\jxr\FindJXR.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\jxr\vcpkg-cmake-wrapper.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\libdeflate\libdeflate-config-version.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\libdeflate\libdeflate-config.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\libdeflate\libdeflate-targets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\libdeflate\libdeflate-targets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\libdeflate\libdeflate-targets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\libraw\FindLibRaw.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\libraw\vcpkg-cmake-wrapper.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openexr\OpenEXRConfig.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openexr\OpenEXRConfigVersion.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openexr\OpenEXRTargets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openexr\OpenEXRTargets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openexr\OpenEXRTargets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openjpeg\OpenJPEGConfig.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openjpeg\OpenJPEGConfigVersion.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openjpeg\OpenJPEGTargets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openjpeg\OpenJPEGTargets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\openjpeg\OpenJPEGTargets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\png\vcpkg-cmake-wrapper.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\sdl2\SDL2Config.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\sdl2\SDL2ConfigVersion.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\sdl2\SDL2Targets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\sdl2\SDL2Targets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\sdl2\SDL2Targets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\sdl2\SDL2mainTargets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\sdl2\SDL2mainTargets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\sdl2\SDL2mainTargets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\sdl2\sdlfind.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\tiff\vcpkg-cmake-wrapper.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\tinyxml2\tinyxml2-config-version.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\tinyxml2\tinyxml2-config.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\tinyxml2\tinyxml2-shared-targets-debug.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\tinyxml2\tinyxml2-shared-targets-release.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\tinyxml2\tinyxml2-shared-targets.cmake;K:\TNM116\gramods-win\vcpkg\installed\x64-windows\share\zlib\vcpkg-cmake-wrapper.cmake;K:\TNM116\gramods-win\vcpkg\scripts\buildsystems\vcpkg.cmake;X:\Desktop\tnm116-lab-interactions\build_X\CMakeFiles\3.31.5\CMakeCCompiler.cmake;X:\Desktop\tnm116-lab-interactions\build_X\CMakeFiles\3.31.5\CMakeCXXCompiler.cmake;X:\Desktop\tnm116-lab-interactions\build_X\CMakeFiles\3.31.5\CMakeRCCompiler.cmake;X:\Desktop\tnm116-lab-interactions\build_X\CMakeFiles\3.31.5\CMakeSystem.cmake;X:\Desktop\tnm116-lab-interactions\cmake_modules\openvr-config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">X:\Desktop\tnm116-lab-interactions\build_X\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="X:\Desktop\tnm116-lab-interactions\main.cpp" />
+    <ClCompile Include="X:\Desktop\tnm116-lab-interactions\MyApp.cpp" />
+    <ClInclude Include="X:\Desktop\tnm116-lab-interactions\MyApp.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\CommandLineParser.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\Configuration.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\Console.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\ConsoleLevel.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\ExitException.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\FileResolver.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\FreeImage.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\ImportLibrary.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\InvalidArgument.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\LogFileMessageSink.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\MathConstants.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\MessageSink.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\NullMessageSink.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\OFactory.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\OStreamMessageSink.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\Object.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\OpenVR.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\PreConditionViolation.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\RunLimited.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\RunOnce.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\RuntimeException.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\ScopedOStreamRedirect.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\SdlContext.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\StringFile.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\Stringify.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\TimeTools.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\UnsupportedException.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\Updateable.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\VideoSource.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\io_angle.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\io_eigen.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\io_float.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\io_int.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\io_size.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\io_typeid.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\config.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\export.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmMisc\ConstexprPow.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmMisc\DelaunayInterpolator.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmMisc\EFFOAW.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmMisc\EFHOAW.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmMisc\FFTW.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmMisc\NelderMead.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmMisc\PolyFit.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmMisc\config.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\AnalogsMapper.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\AnalogsTracker.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\ArucoBoard.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\ArucoBoardComplex.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\ArucoGridBoard.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\ArucoPoseTracker.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\ButtonsMapper.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\ButtonsTracker.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\Controller.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\MultiPoseTracker.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\MultiToSinglePoseTracker.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\OffsetSinglePoseTracker.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\OpenCvVideoCapture.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\OpenVRAnalogsTracker.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\OpenVRButtonsTracker.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\OpenVRPoseTracker.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\PoseRegistrationEstimator.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\PoseTracker.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\ProjectionTextureGenerator.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\RegisteredMultiPoseTracker.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\RegisteredSinglePoseTracker.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\RelativeSinglePoseTracker.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\SampleCollector.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\SampleCollector.impl.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\SinglePoseTracker.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\SingleToMultiPoseTracker.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\TimeSampleAnalogsTracker.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\TimeSampleButtonsTracker.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\TimeSamplePoseTracker.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\VrpnAnalogsTracker.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\VrpnButtonsTracker.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\VrpnPoseTracker.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\VrpnServer.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\config.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\export.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\AABB.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\AngularFisheyeCoordinatesMapper.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\CallbackRenderer.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\Camera.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\ChromaKeyTexture.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\ChromaKeyView.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\CoordinatesMapper.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\CubeMapRasterProcessor.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\CubeSceneRenderer.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\EacCoordinatesMapper.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\EquirectangularCoordinatesMapper.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\Eye.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\FisheyeCameraModel.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\FovPlanarView.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\GLUtils.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\Geometry.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\GeometryCorrectedProjectorView.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\Group.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\HmdView.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\ImageTexture.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\InterlaceMultiplexer.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\IntersectionLine.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\IntersectionVisitor.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\LinearAnaglyphsMultiplexer.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\MatrixTransform.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\MultiscopicMultiplexer.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\MultiscopicTextureMultiplexer.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\MultiscopicTextureSplitter.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\MultiscopicView.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\Node.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\ObjRenderer.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\OffscreenRenderTargets.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\OsgRenderer.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\PlaneGeometry.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\PoseTransform.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\PosedPlanarView.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\PosedSphericalView.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\QuadBufferMultiplexer.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\RasterProcessor.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\RectilinearCameraModel.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\RemapperView.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\Renderer.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\SaveView.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\SdlWindow.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\SideBySideMultiplexer.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\SpatialPlanarView.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\SpatialSphericalView.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\SphereGeometry.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\SphereRenderer.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\SphereSceneRenderer.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\StereographicCoordinatesMapper.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\Texture.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\TextureInterface.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\TextureProjectedView.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\TextureRenderer.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\TextureWarpedView.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\TiledView.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\TrackedTransform.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\TrackedViewpoint.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\Transform.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\TransitionCoordinatesMapper.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\UvcTexture.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\VelocityViewpoint.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\View.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\ViewBase.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\ViewMixView.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\ViewTexture.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\Viewpoint.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\Window.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\YuvDecodeTexture.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\config.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmNetwork\DataSync.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmNetwork\Protocol.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmNetwork\RunSync.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmNetwork\SyncData.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmNetwork\SyncMData.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmNetwork\SyncNode.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmNetwork\SyncSData.hh" />
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmNetwork\config.hh" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="X:\Desktop\tnm116-lab-interactions\build_X\ZERO_CHECK.vcxproj">
+      <Project>{349C5DA2-7ADB-3028-87AF-7F93328ED690}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

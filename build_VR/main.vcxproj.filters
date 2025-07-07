@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="P:\Desktop\tnm116-lab-interactions\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="P:\Desktop\tnm116-lab-interactions\MyApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="P:\Desktop\tnm116-lab-interactions\MyApp.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\CommandLineParser.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\Configuration.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\Console.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\ConsoleLevel.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\ExitException.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\FileResolver.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\FreeImage.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\ImportLibrary.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\InvalidArgument.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\LogFileMessageSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\MathConstants.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\MessageSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\NullMessageSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\OFactory.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\OStreamMessageSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\Object.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\OpenVR.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\PreConditionViolation.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\RunLimited.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\RunOnce.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\RuntimeException.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\ScopedOStreamRedirect.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\SdlContext.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\StringFile.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\Stringify.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\TimeTools.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\UnsupportedException.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\Updateable.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\VideoSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\io_angle.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\io_eigen.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\io_float.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\io_int.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\io_size.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\io_typeid.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\config.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmCore\export.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmMisc\ConstexprPow.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmMisc\DelaunayInterpolator.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmMisc\EFFOAW.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmMisc\EFHOAW.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmMisc\FFTW.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmMisc\NelderMead.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmMisc\PolyFit.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmMisc\config.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmTrack\AnalogsMapper.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmTrack\AnalogsTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmTrack\ArucoBoard.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmTrack\ArucoBoardComplex.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmTrack\ArucoGridBoard.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmTrack\ArucoPoseTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmTrack\ButtonsMapper.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmTrack\ButtonsTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmTrack\Controller.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmTrack\MultiPoseTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmTrack\MultiToSinglePoseTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmTrack\OffsetSinglePoseTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmTrack\OpenCvVideoCapture.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmTrack\OpenVRAnalogsTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmTrack\OpenVRButtonsTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmTrack\OpenVRPoseTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmTrack\PoseRegistrationEstimator.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmTrack\PoseTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmTrack\ProjectionTextureGenerator.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmTrack\RegisteredMultiPoseTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmTrack\RegisteredSinglePoseTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmTrack\RelativeSinglePoseTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmTrack\SampleCollector.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmTrack\SampleCollector.impl.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmTrack\SinglePoseTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmTrack\SingleToMultiPoseTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmTrack\TimeSampleAnalogsTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmTrack\TimeSampleButtonsTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmTrack\TimeSamplePoseTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmTrack\VrpnAnalogsTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmTrack\VrpnButtonsTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmTrack\VrpnPoseTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmTrack\VrpnServer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmTrack\config.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmTrack\export.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\AABB.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\AngularFisheyeCoordinatesMapper.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\CallbackRenderer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\Camera.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\ChromaKeyTexture.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\ChromaKeyView.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\CoordinatesMapper.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\CubeMapRasterProcessor.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\CubeSceneRenderer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\EacCoordinatesMapper.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\EquirectangularCoordinatesMapper.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\Eye.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\FisheyeCameraModel.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\FovPlanarView.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\GLUtils.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\Geometry.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\GeometryCorrectedProjectorView.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\Group.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\HmdView.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\ImageTexture.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\InterlaceMultiplexer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\IntersectionLine.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\IntersectionVisitor.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\LinearAnaglyphsMultiplexer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\MatrixTransform.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\MultiscopicMultiplexer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\MultiscopicTextureMultiplexer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\MultiscopicTextureSplitter.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\MultiscopicView.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\Node.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\ObjRenderer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\OffscreenRenderTargets.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\OsgRenderer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\PlaneGeometry.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\PoseTransform.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\PosedPlanarView.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\PosedSphericalView.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\QuadBufferMultiplexer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\RasterProcessor.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\RectilinearCameraModel.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\RemapperView.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\Renderer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\SaveView.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\SdlWindow.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\SideBySideMultiplexer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\SpatialPlanarView.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\SpatialSphericalView.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\SphereGeometry.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\SphereRenderer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\SphereSceneRenderer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\StereographicCoordinatesMapper.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\Texture.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\TextureInterface.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\TextureProjectedView.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\TextureRenderer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\TextureWarpedView.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\TiledView.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\TrackedTransform.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\TrackedViewpoint.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\Transform.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\TransitionCoordinatesMapper.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\UvcTexture.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\VelocityViewpoint.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\View.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\ViewBase.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\ViewMixView.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\ViewTexture.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\Viewpoint.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\Window.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\YuvDecodeTexture.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmGraphics\config.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmNetwork\DataSync.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmNetwork\Protocol.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmNetwork\RunSync.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmNetwork\SyncData.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmNetwork\SyncMData.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmNetwork\SyncNode.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmNetwork\SyncSData.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Apps\gramods.bin-TNM116-HT24-1\include\gmNetwork\config.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="P:\Desktop\tnm116-lab-interactions\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C4D9294A-77B4-3746-A8ED-D7EECADAE76D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ADF14DC6-B242-31FB-AD06-515CD785F6F3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

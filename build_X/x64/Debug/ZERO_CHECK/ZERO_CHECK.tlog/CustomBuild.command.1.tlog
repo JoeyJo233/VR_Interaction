@@ -1,0 +1,10 @@
+^X:\DESKTOP\TNM116-LAB-INTERACTIONS\BUILD_X\CMAKEFILES\FB9083D175B7255BF647FCC0E6CA5731\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SX:/Desktop/tnm116-lab-interactions -BX:/Desktop/tnm116-lab-interactions/build_X --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file X:/Desktop/tnm116-lab-interactions/build_X/tnm116-interactions.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

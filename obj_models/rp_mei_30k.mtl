@@ -1,0 +1,7 @@
+newmtl material_1
+       Ka 0 0 0 1
+       Kd 0.588 0.588 0.588 1
+       Ks 0 0 0 1
+       Ns 0
+       map_Kd rp_mei_30k.jpg
+

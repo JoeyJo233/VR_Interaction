@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="X:\Desktop\tnm116-lab-interactions\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="X:\Desktop\tnm116-lab-interactions\MyApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="X:\Desktop\tnm116-lab-interactions\MyApp.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\CommandLineParser.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\Configuration.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\Console.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\ConsoleLevel.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\ExitException.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\FileResolver.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\FreeImage.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\ImportLibrary.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\InvalidArgument.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\LogFileMessageSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\MathConstants.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\MessageSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\NullMessageSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\OFactory.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\OStreamMessageSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\Object.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\OpenVR.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\PreConditionViolation.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\RunLimited.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\RunOnce.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\RuntimeException.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\ScopedOStreamRedirect.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\SdlContext.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\StringFile.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\Stringify.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\TimeTools.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\UnsupportedException.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\Updateable.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\VideoSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\io_angle.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\io_eigen.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\io_float.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\io_int.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\io_size.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\io_typeid.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\config.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmCore\export.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmMisc\ConstexprPow.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmMisc\DelaunayInterpolator.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmMisc\EFFOAW.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmMisc\EFHOAW.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmMisc\FFTW.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmMisc\NelderMead.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmMisc\PolyFit.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmMisc\config.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\AnalogsMapper.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\AnalogsTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\ArucoBoard.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\ArucoBoardComplex.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\ArucoGridBoard.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\ArucoPoseTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\ButtonsMapper.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\ButtonsTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\Controller.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\MultiPoseTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\MultiToSinglePoseTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\OffsetSinglePoseTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\OpenCvVideoCapture.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\OpenVRAnalogsTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\OpenVRButtonsTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\OpenVRPoseTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\PoseRegistrationEstimator.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\PoseTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\ProjectionTextureGenerator.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\RegisteredMultiPoseTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\RegisteredSinglePoseTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\RelativeSinglePoseTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\SampleCollector.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\SampleCollector.impl.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\SinglePoseTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\SingleToMultiPoseTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\TimeSampleAnalogsTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\TimeSampleButtonsTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\TimeSamplePoseTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\VrpnAnalogsTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\VrpnButtonsTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\VrpnPoseTracker.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\VrpnServer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\config.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmTrack\export.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\AABB.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\AngularFisheyeCoordinatesMapper.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\CallbackRenderer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\Camera.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\ChromaKeyTexture.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\ChromaKeyView.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\CoordinatesMapper.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\CubeMapRasterProcessor.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\CubeSceneRenderer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\EacCoordinatesMapper.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\EquirectangularCoordinatesMapper.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\Eye.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\FisheyeCameraModel.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\FovPlanarView.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\GLUtils.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\Geometry.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\GeometryCorrectedProjectorView.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\Group.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\HmdView.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\ImageTexture.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\InterlaceMultiplexer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\IntersectionLine.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\IntersectionVisitor.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\LinearAnaglyphsMultiplexer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\MatrixTransform.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\MultiscopicMultiplexer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\MultiscopicTextureMultiplexer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\MultiscopicTextureSplitter.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\MultiscopicView.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\Node.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\ObjRenderer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\OffscreenRenderTargets.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\OsgRenderer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\PlaneGeometry.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\PoseTransform.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\PosedPlanarView.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\PosedSphericalView.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\QuadBufferMultiplexer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\RasterProcessor.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\RectilinearCameraModel.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\RemapperView.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\Renderer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\SaveView.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\SdlWindow.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\SideBySideMultiplexer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\SpatialPlanarView.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\SpatialSphericalView.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\SphereGeometry.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\SphereRenderer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\SphereSceneRenderer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\StereographicCoordinatesMapper.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\Texture.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\TextureInterface.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\TextureProjectedView.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\TextureRenderer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\TextureWarpedView.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\TiledView.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\TrackedTransform.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\TrackedViewpoint.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\Transform.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\TransitionCoordinatesMapper.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\UvcTexture.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\VelocityViewpoint.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\View.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\ViewBase.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\ViewMixView.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\ViewTexture.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\Viewpoint.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\Window.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\YuvDecodeTexture.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmGraphics\config.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmNetwork\DataSync.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmNetwork\Protocol.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmNetwork\RunSync.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmNetwork\SyncData.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmNetwork\SyncMData.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmNetwork\SyncNode.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmNetwork\SyncSData.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\TNM116\gramods-win\include\gmNetwork\config.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="X:\Desktop\tnm116-lab-interactions\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{FCB0D1CB-68F7-32DA-8C92-7D20E403AAF7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6FF86AA2-0ADB-39B9-AEC0-E4CFB324557C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

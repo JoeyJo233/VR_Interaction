@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>P:\Desktop\tnm116-lab-interactions\build_VR\x64\Release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>P:\Desktop\tnm116-lab-interactions\build_VR\Release\main.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>P:\Desktop\tnm116-lab-interactions\build_VR\x64\Release\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="P:\Desktop\tnm116-lab-interactions\build_VR\CMakeFiles\fcd026f745d3bad383aa4af969a3c2da\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5A9F50BF-7939-3166-B84B-DFF1AFC9A54C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

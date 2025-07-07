@@ -1,0 +1,4 @@
+X:/Desktop/tnm116-lab-interactions/build_X/CMakeFiles/main.dir
+X:/Desktop/tnm116-lab-interactions/build_X/CMakeFiles/INSTALL.dir
+X:/Desktop/tnm116-lab-interactions/build_X/CMakeFiles/ALL_BUILD.dir
+X:/Desktop/tnm116-lab-interactions/build_X/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,57 @@
+<config>
+
+  <!--OStreamMessageSink useAnsiColor="true" level="3"-->
+  <!--LogFileMessageSink logFilePath="gramods.log" append="false"/-->
+
+  <ImportLibrary library="gmGraphics"/>
+  <ImportLibrary library="gmTrack"/>
+
+  <SdlWindow
+      size="640 640"
+      title="OSG Test"
+      GLMajor="2">
+
+    <SdlContext
+        useVideo="1"/>
+
+    <TiledView>
+
+      <param name="tileLocation" value="0 0 1 1"/>
+      <SpatialPlanarView
+          topLeftCorner="-2.0 2.0 0.0"
+          bottomRightCorner="2.0 -2.0 0.0"
+          upDirection="0.0 1.0 0.0">
+        <Viewpoint
+            position="0.0 0.0 3.0"/>
+      </SpatialPlanarView>
+
+      <param name="tileLocation" value="0 1 1 1"/>
+      <SpatialPlanarView
+          topLeftCorner="0.0 2.0 -2.0"
+          bottomRightCorner="0.0 -2.0 2.0"
+          upDirection="0.0 1.0 0.0">
+        <Viewpoint
+            position="-3.0 0.0 0.0"/>
+      </SpatialPlanarView>
+
+      <param name="tileLocation" value="1 0 1 1"/>
+      <SpatialPlanarView
+          topLeftCorner="-2.0 0.0 -2.0"
+          bottomRightCorner="2.0 0.0 2.0"
+          upDirection="0.0 0.0 -1.0">
+        <Viewpoint
+            position="0.0 3.0 0.0"/>
+      </SpatialPlanarView>
+
+      <param name="tileLocation" value="1 1 1 1"/>
+      <PosedPlanarView
+          fieldOfView="1 -1">
+        <Viewpoint
+            position="2.0 2.0 2.0"
+            lookAt="0.0 0.0 0.0"/>
+      </PosedPlanarView>
+    </TiledView>
+
+  </SdlWindow>
+
+</config>
